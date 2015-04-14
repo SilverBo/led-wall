@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LED Wall</string>
+    <string name="connection_error">Es ist ein Fehler bei der Verbindung zum Server aufgetreten. Bitte überprüfe die Verbindungseinstellungen und den Status vom Server. Versuche es dann erneut.</string>
+    <string name="connection_ok">Ok</string>
+    <string name="connection_title">Verbindungsaufbau</string>
+    <string name="connection_message">Die Verbindung zum Server wird aufgebaut...</string>
+    <string name="menu_draw">Zeichnen</string>
+    <string name="menu_text">Text senden</string>
+    <string name="menu_tetris">Tetris</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_about">Über LED-Wall</string>
+    <string name="menu_disconnect">Verbindung trennen</string>
+    <string name="title_activity_draw">Zeichnen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_subHead">Infos? oder Link zum Tutorial, nicht besser auf die erste Seite? keine Ahnung</string>
+    <string name="text_head">Dein Text auf der LED-Wall für</string>
+    <string name="text_top">"oben: "</string>
+    <string name="text_bottom">unten</string>
+    <string name="text_hint_top">max. 5 Buchstaben</string>
+    <string name="text_hint_bottom">z. B.: Hallo</string>
+    <string name="text_color">"Farbe: "</string>
+    <string name="text_colorInverted">Farbe invertieren?</string>
+    <string name="text_animation">Wähle eine Animation für deinen Text aus</string>
+    <string name="text_error">Es muss mindestens ein Feld ausgefüllt werden</string>
+    <string name="settings_toast_save">Einstellungen erfolgreich gespeichert</string>
+    <string name="settings_error_ipaddress">Fehlerhafte Eingabe bei der IP Adresse</string>
+    <string name="settings_error_port">Es sind nur Porteingaben im Bereich 1024 bis 65535 erlaubt</string>
+
+    <string-array name="color">
+        <item>Rot</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Bunt</item>
+    </string-array>
+    <string-array name="animation">
+        <item>keine</item>
+    </string-array>
+
+    <string name="button_send">Text senden</string>
+    <string name="settings_textView_ipaddress">IP Adresse: </string>
+    <string name="settings_textView_connectionSettings">Verbindungseinstellungen</string>
+    <string name="settings_textView_port">Port: </string>
+    <string name="settings_button_save">Einstellungen speichern</string>
+    <string name="settings_textView_infosave">Verbindungseinstellungen können nur geändert werden, wenn das Smartphone nicht verbunden ist.</string>
+    <string name="tetris_textView_scoretitle">Punktestand</string>
+    <string name="tetris_textView_leveltitle">Level</string>
+    <string name="tetris_textView_nextStone">nächster Stein</string>
+    <string name="tetris_textView_currentStone">aktueller Stein</string>
+    <string name="tetris_button_pause">Pause</string>
+    <string name="tetris_button_stop">Stop</string>
+    <string name="tetris_button_start">Start</string>
+    <string name="tetris_button_left">&lt;</string>
+    <string name="tetris_button_right">&gt;</string>
+    <string name="tetris_button_counterclockwise">links</string>
+    <string name="tetris_button_clockwise">rechts</string>
+    <string name="main_textView_info1">Willkommen zur <b>LED Wall App</b></string>
+    <string name="main_textView_info2">Mit dieser App kannst du 160 LEDs in jeweils 3 Farben (rot, grün, blau) steuern.</string>
+    <string name="main_textView_info3">Einen Text auf der LED Wand anzeigen lassen oder zum vergnügen eine Runde Tetris spielen.</string>
+    <string name="main_textView_info4">Jetzt hast du die Möglichkeit über das Einstellungsmenü die Verbindungseinstellungen zu überprüfen oder zu ändern.</string>
+    <string name="main_textView_info5">Ansonsten kannst du auf den unteren Button <b>Verbindung herstellen</b> klicken und dein Smartphone und die LED Wand verbinden sich und dir stehen dann weitere Funktionen zur Verfügung.</string>
+    <string name="main_button_connect">Verbindung herstellen</string>
+    <string name="info_textView_info1">Die LED-Wall App ist ein Medienprojekt von Torsten Kohn und Benjamin Awad.</string>
+    <string name="info_textView_info2">Das Medienprojekt wurde von Frau Prof. Dr. Gundula Dörries betreut und fand im Rahmen des Studiums Medieninformatik im 4. Semester (SS2013) statt.</string>
+    <string name="info_textView_info3">Für das Projekt wurde folgende Hardware verwendet:</string>
+    <string name="info_textView_info4">Android Smartphone, Raspberry Pi, Peggy 2LE LED Driver Board</string>
+    <string name="info_textView_info5">Für weite Informationen schreibt uns einfach eine Mail an: kohn.torsten@gmail.com oder benm.awad@gmail.com</string>
+    <string name="draw_textView_info">Zum zeichnen einfach die einzelnen Felder anklicken</string>
+    <string name="draw_textView_info2">aus -> rot -> grün -> blau -> aus</string>
+    <string name="menu_textView_info1"><b>mit der LED-Wall verbunden</b></string>
+    <string name="menu_textView_info2">Du hast nun über dein Smartphone Zugriff auf die LEDs.</string>
+    <string name="menu_textView_info3">Wenn du nun oben links auf das Logo klickst, hast du Zugriff auf die Funktionen Zeichnen, Text senden und Tetris.</string>
+    <string name="menu_textView_info4">Falls du die Sitzung beenden willst, kannst du oben rechts über das Menü die Verbindung trennen</string>
+    <string name="menu_textView_info5">Viel Spass beim Experimentieren</string>
+    <string name="title_activity_draw_debug">DrawDebugActivity</string>
+
+</resources>

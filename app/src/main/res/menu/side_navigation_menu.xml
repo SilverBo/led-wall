@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/side_navigation_menu_draw"
+        android:title="@string/menu_draw"/>
+    <item
+        android:id="@+id/side_navigation_menu_text"
+        android:title="@string/menu_text"/>
+    <item
+        android:id="@+id/side_navigation_menu_tetris"
+        android:title="@string/menu_tetris"/>
+    <item
+        android:id="@+id/side_navigation_menu_settings"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/side_navigation_menu_about"
+        android:title="@string/menu_about"/>
+</menu>
